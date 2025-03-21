@@ -24,7 +24,7 @@ Scenario: Register a new user
     And User click Continue button
     Examples:
       | name |      email               |
-      | Niru | nirasnjanramuuu@gmail.com |
+      | Niru | nirasguygnjanramuuu@gmail.com |
 @TestCase2  
 Scenario: Successful Login to Automation Exercise
     When User clicks on Signup Login button
