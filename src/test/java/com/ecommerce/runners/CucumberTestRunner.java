@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 @CucumberOptions(
-		features = "src/test/resources/features",
+		features = "src/test/resources/features/Cart.feature",
 		glue = "com.ecommerce.stepDefinations",
 		//    plugin = {"pretty", "html:target/cucumber-reports"}
 		//    plugin = {"pretty", "json:target/cucumber-reports"}
