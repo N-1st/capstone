@@ -8,9 +8,8 @@ import io.cucumber.testng.CucumberOptions;
 
 
 @CucumberOptions(
-		features = "src/test/resources/features/checkout.feature",
+		features = "src/test/resources/features",
 		glue = "com.ecommerce.stepDefinations",
-//		tags="@TestCase25",
 		//    plugin = {"pretty", "html:target/cucumber-reports"}
 		//    plugin = {"pretty", "json:target/cucumber-reports"}
 		//    plugin = {"pretty", "json:target/cucumber-reports-json/Cucumber.json"}
